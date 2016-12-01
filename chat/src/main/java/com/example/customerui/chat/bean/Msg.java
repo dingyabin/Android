@@ -28,7 +28,7 @@ public class Msg {
     }
 
 
-    public Msg(String content, int type , Date time) {
+    public Msg(String content, int type, Date time) {
         this.content = content;
         this.time = time;
         this.type = type;
