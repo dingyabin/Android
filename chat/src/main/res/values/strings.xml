@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="type_hint">请输入聊天信息......</string>
+    <string name="send">发送</string>
+</resources>
