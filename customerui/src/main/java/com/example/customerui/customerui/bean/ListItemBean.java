@@ -10,7 +10,6 @@ public class ListItemBean {
 
     private String text;
 
-
     public ListItemBean() {
     }
 
