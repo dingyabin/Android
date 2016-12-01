@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <string name="pleaseInput">请输入号码:</string>
+    <string name="toCall">拨打</string>
+    <string name="empty_alert">号码不能为空!</string>
+    <string name="not_number">请输入正确的电话号码！</string>
+    <string name="openBrower">打开百度</string>
+    <string name="progress">进度条开关</string>
+</resources>
