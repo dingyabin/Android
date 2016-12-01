@@ -34,16 +34,10 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     }
 
 
-
-
-
-
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         alert(list.get(position).getText());
     }
-
-
 
 
     private void alert(String msg) {
@@ -58,11 +52,10 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
     @Override
     protected void onStop() {
         super.onStop();
-        if(toast!=null){
+        if (toast != null) {
             toast.cancel();
         }
     }
-
 
 
     private void init() {
@@ -79,7 +72,6 @@ public class MainActivity extends Activity implements AdapterView.OnItemClickLis
         list.add(new ListItemBean(R.drawable.android, "你好，安卓10。"));
         list.add(new ListItemBean(R.drawable.android, "你好，安卓11。"));
     }
-
 
 
 }
