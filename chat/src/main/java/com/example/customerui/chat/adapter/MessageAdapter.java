@@ -22,7 +22,7 @@ public class MessageAdapter extends ArrayAdapter<Msg> {
 
     private int resourceId;
 
-    LinearLayout.LayoutParams params= new LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1.0f);
+    private  LinearLayout.LayoutParams params= new LinearLayout.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT, 1.0f);
 
     private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("MM月dd日 HH:mm");
 
